@@ -86,7 +86,29 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /*----------Base Header - Footer Styles----------*/
+.content-wrapper{
+  outline: 12px dotted blue;
 
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
