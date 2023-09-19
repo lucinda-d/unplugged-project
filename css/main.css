@@ -348,8 +348,7 @@ aside {
   /*General styles*/
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
-    
+    margin: 100px 0;    
   }
 
   /*Header*/
@@ -466,16 +465,62 @@ footer .copyright {
   width: 100%;
 }
 
-
-
+}
 
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
-  
+  .content-wrapper {
+    max-width: 960px;
   }
+
+  header {
+    padding: 15px 0;
+  }
+
+  /* Hero */
+  .hero-area h1 {
+      width: 80%;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /*Featues*/
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /*Reviews*/
+  .reviews article div {
+    width: 42%;
+  }
+
+/*============= About Page ==============*/
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
+
+/*============== FAQ Page ================*/
+  .faq h2 {
+    width: 100%;
+  }
+
 }
-/* ==========================================================================
+/* ===============================
+===========================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/

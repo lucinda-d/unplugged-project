@@ -1,0 +1,59 @@
+[33mcommit d42d4e034216f486121577894d7ebb90311ad22a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;32mtestbranch[m[33m)[m
+Author: Lucy D <126295672+lucinda-d@users.noreply.github.com>
+Date:   Wed Sep 13 09:11:38 2023 -0500
+
+    Added tablet breakpoints
+
+[33mcommit e36252d0d35608b0e5d98bc34504b833629ba784[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Lucy D <126295672+lucinda-d@users.noreply.github.com>
+Date:   Wed Sep 6 10:44:58 2023 -0500
+
+    Formatting layout with padding and margins
+
+[33mcommit 0d301d3084e9bc5aff5ace408a4394f1b19cceae[m
+Author: Lucy D <126295672+lucinda-d@users.noreply.github.com>
+Date:   Tue Aug 29 15:59:36 2023 -0500
+
+    Flexbox styles to index about and faq
+
+[33mcommit a951ace70b888639780824c3281b8a48b3226ac8[m
+Author: Lucy D <126295672+lucinda-d@users.noreply.github.com>
+Date:   Fri Aug 25 18:03:35 2023 -0500
+
+    updated outline color
+
+[33mcommit adb52a58373d7d4d42ea9f1700eb0456fec70a02[m
+Author: Lucy D <126295672+lucinda-d@users.noreply.github.com>
+Date:   Thu Aug 24 10:06:17 2023 -0500
+
+    Added content to faq page
+
+[33mcommit 313256a1f33dfcd7fe730ae7621c4b37ae82f64e[m
+Author: Lucy D <126295672+lucinda-d@users.noreply.github.com>
+Date:   Thu Aug 24 09:44:42 2023 -0500
+
+    Added content for about page
+
+[33mcommit 4e1b170f4849561d281ca75bb7ec086600b2262a[m
+Author: Lucy D <126295672+lucinda-d@users.noreply.github.com>
+Date:   Wed Aug 23 10:38:57 2023 -0500
+
+    Update homepage code
+
+[33mcommit 09a32499c872a7912bb079eacebae516d824e755[m
+Author: Lucy D <126295672+lucinda-d@users.noreply.github.com>
+Date:   Wed Aug 23 10:32:13 2023 -0500
+
+    Update code to homepage
+
+[33mcommit 8059c3ecbd767305a0ca43cef5823465dd6630e7[m
+Author: Lucy D <126295672+lucinda-d@users.noreply.github.com>
+Date:   Tue Aug 22 10:28:59 2023 -0500
+
+    Adding html for header, footer to and main content
+
+[33mcommit db2838f8b5393d0296a97a4faa7bdc7c9af072d3[m
+Author: Lucy D <126295672+lucinda-d@users.noreply.github.com>
+Date:   Fri Aug 18 16:19:47 2023 -0500
+
+    Initial commit
