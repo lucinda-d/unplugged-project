@@ -133,10 +133,19 @@ address {
 }
 
 .content-wrapper {
-  outline: 3px dotted red;
+  /*outline: 3px dotted red;*/
   width: 90%;
   margin: 50px 0;
 }
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
  /*----------Base Header - Footer Styles----------*/
 header {
   background-color: #202322;
@@ -158,6 +167,10 @@ header .divider{
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+}
+
+header figure {
+  width: 60%;
 }
 
 header nav{
@@ -212,11 +225,18 @@ footer .social-icons p {
   align-items: center;
 }
 
+/*----------------- Mobile Styles - Homepage -----------------*/
+
 /* Hero Area */
 
 .hero-area {
   display: flex;
   justify-content: center;
+  background: url("../img/unplugged-retreat.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  
 }
 
 .hero-area h1 {
@@ -263,6 +283,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url("../img/unplugged-retreat-features.jpg");
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
@@ -284,8 +307,10 @@ input[type=button] {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
+
 /* Reviews */
 
 .reviews {
@@ -486,6 +511,10 @@ header nav ul {
 
 /* Hero Area */
 
+.hero-area {
+  min-height: 600px;
+}
+
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
@@ -529,9 +558,10 @@ aside .content-wrapper .form {
 }
 
 .reviews h2 {
-  width: 82%;
+  width: 85%;
 }
 
+.reviews article figure,
 .reviews article div {
   width: 49%;
 }
@@ -591,6 +621,10 @@ footer .copyright {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.contact-content {
+   font-size: 1.5em;
 }
 
 /*============= FAQ Page =============*/
@@ -692,7 +726,7 @@ footer .copyright {
     font-size: 3em;
   }
 
-  .contact-content{
+  .contact-content h4{
     font-size: 1.875em;
   }
 
