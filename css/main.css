@@ -521,7 +521,7 @@ input[type=button] {
     width: 20%;
   }
 
-header nav ul {
+  header nav ul {
   justify-content: space-between;
 }
 
@@ -643,6 +643,11 @@ footer .copyright {
    font-size: 1.5em;
 }
 
+/* Map */
+.map figure  {
+  padding-bottom: 45.5%;
+}
+
 /*============= FAQ Page =============*/
 
 .faq .content-wrapper{
@@ -745,6 +750,11 @@ footer .copyright {
   .contact-content h4{
     font-size: 1.875em;
   }
+
+  /* Map */
+ .map figure {
+  padding-bottom: 37.5%;
+ }
 
 /*============== FAQ Page ================*/
   .faq h2 {
